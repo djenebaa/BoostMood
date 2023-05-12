@@ -1,0 +1,53 @@
+body{
+    background-color: palevioletred;
+}
+
+#QuoteDay, #NewQuoteForm, h1{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#submitbutton{
+    width: 40%;
+    height: 50px;
+    border-radius: 1em;
+    border: 1px solid pink;
+    background-color: pink;
+}
+#submitbutton:active{
+    background-color: rgb(229, 127, 238);
+}
+#newquote{
+    width: 50%;
+    height: 20px;
+    background-color: white;
+    border-radius: 1em;
+    border-style: solid;
+    margin: 1em;
+    text-align: center;
+}
+#quote{
+    background-color: rgb(157, 91, 218);
+}
+
+p{
+    background-color: rgb(60, 218, 218);
+}
+/* **********************Refresh button */
+#reload{
+    width: 20%;
+    height: 40px;
+    border-radius: 1em;
+    border: 1px solid pink;
+    background-color: rgb(255, 192, 236);
+}
+
+#reload:active{
+    background-color: rgb(237, 104, 197);
+}
+#Refresh{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4em;
+}

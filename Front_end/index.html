@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Be In Good Mood</title>
+  </head>
+  <body>
+    <h1>Mood</h1>
+    <div id="QuoteDay">
+      <h2>Quote of the Day</h2>
+      <p id="quote">Fetching quote ....</p>
+    </div>
+    <div id="NewQuoteForm">
+      <input type="text" placeholder="Send a new quote" id="newquote" />
+      <input
+        type="button"
+        id="submitbutton"
+        value="Submit your sentence"
+        onclick="addQuote()"
+        ;
+        return
+        false
+      />
+      <p id="newquoteAdd"></p>
+    </div>
+    <div id="Refresh">
+ <input type="button" value="Refresh" onclick="reloading()" id="reload" />
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
